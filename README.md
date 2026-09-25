@@ -1,24 +1,17 @@
-# Ktor Task API
+# Ktor 
 
-Небольшой REST API на Ktor для работы с задачами.
+Кт1 Kotlin 
 
 ## Запуск
+Нужен JDK 17 
 
-Нужен JDK 17 или новее.
-
-Linux / macOS:
+Команда запуска ( linux \ macos )
 
 ```bash
 ./gradlew run
 ```
 
-Windows:
-
-```bat
-gradlew.bat run
-```
-
-Сервер запускается на `http://localhost:8080`.
+Сервер запускается на http://localhost:8080
 
 ## Маршруты
 
@@ -41,19 +34,9 @@ curl -X POST http://localhost:8080/tasks \
   -d '{"title":"Learn Ktor","completed":false}'
 ```
 
-## Тесты
+## Проведение тестов
 
 ```bash
 ./gradlew test
 ```
 
-## GitHub
-
-```bash
-git init
-git add .
-git commit -m "Ktor task API"
-git branch -M main
-git remote add origin https://github.com/USERNAME/ktor-task-api.git
-git push -u origin main
-```
